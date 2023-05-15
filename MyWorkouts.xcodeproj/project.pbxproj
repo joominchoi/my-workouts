@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DBA88DBB2A12390100ED55F3 /* MyWorkouts Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DBA88DBA2A12390100ED55F3 /* MyWorkouts Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DBA88DC02A12390100ED55F3 /* MyWorkoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DBF2A12390100ED55F3 /* MyWorkoutsApp.swift */; };
-		DBA88DC22A12390100ED55F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DC12A12390100ED55F3 /* ContentView.swift */; };
+		DBA88DC22A12390100ED55F3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DC12A12390100ED55F3 /* StartView.swift */; };
 		DBA88DC42A12390300ED55F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA88DC32A12390300ED55F3 /* Assets.xcassets */; };
 		DBA88DC72A12390300ED55F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA88DC62A12390300ED55F3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,7 @@
 		DBA88DB42A12390100ED55F3 /* MyWorkouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorkouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA88DBA2A12390100ED55F3 /* MyWorkouts Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWorkouts Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA88DBF2A12390100ED55F3 /* MyWorkoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsApp.swift; sourceTree = "<group>"; };
-		DBA88DC12A12390100ED55F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBA88DC12A12390100ED55F3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		DBA88DC32A12390300ED55F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA88DC62A12390300ED55F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				DBA88DBF2A12390100ED55F3 /* MyWorkoutsApp.swift */,
-				DBA88DC12A12390100ED55F3 /* ContentView.swift */,
+				DBA88DC12A12390100ED55F3 /* StartView.swift */,
 				DBA88DC32A12390300ED55F3 /* Assets.xcassets */,
 				DBA88DC52A12390300ED55F3 /* Preview Content */,
 			);
@@ -192,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA88DC22A12390100ED55F3 /* ContentView.swift in Sources */,
+				DBA88DC22A12390100ED55F3 /* StartView.swift in Sources */,
 				DBA88DC02A12390100ED55F3 /* MyWorkoutsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
