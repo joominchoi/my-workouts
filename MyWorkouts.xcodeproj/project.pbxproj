@@ -17,6 +17,7 @@
 		DBA88DD62A12467900ED55F3 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DD52A12467900ED55F3 /* ElapsedTimeView.swift */; };
 		DBA88DD82A12677B00ED55F3 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DD72A12677B00ED55F3 /* ControlsView.swift */; };
 		DBA88DDA2A12694F00ED55F3 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DD92A12694F00ED55F3 /* SummaryView.swift */; };
+		DBA88DDC2A1271C200ED55F3 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DDB2A1271C200ED55F3 /* ActivityRingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DBA88DD52A12467900ED55F3 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		DBA88DD72A12677B00ED55F3 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		DBA88DD92A12694F00ED55F3 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		DBA88DDB2A1271C200ED55F3 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				DBA88DBF2A12390100ED55F3 /* MyWorkoutsApp.swift */,
 				DBA88DC12A12390100ED55F3 /* StartView.swift */,
 				DBA88DD92A12694F00ED55F3 /* SummaryView.swift */,
+				DBA88DDB2A1271C200ED55F3 /* ActivityRingsView.swift */,
 				DBA88DD12A1241C100ED55F3 /* SessionPagingView.swift */,
 				DBA88DD32A1242BF00ED55F3 /* MetricsView.swift */,
 				DBA88DD72A12677B00ED55F3 /* ControlsView.swift */,
@@ -212,6 +215,7 @@
 				DBA88DC02A12390100ED55F3 /* MyWorkoutsApp.swift in Sources */,
 				DBA88DD62A12467900ED55F3 /* ElapsedTimeView.swift in Sources */,
 				DBA88DD42A1242BF00ED55F3 /* MetricsView.swift in Sources */,
+				DBA88DDC2A1271C200ED55F3 /* ActivityRingsView.swift in Sources */,
 				DBA88DD82A12677B00ED55F3 /* ControlsView.swift in Sources */,
 				DBA88DD22A1241C100ED55F3 /* SessionPagingView.swift in Sources */,
 			);
