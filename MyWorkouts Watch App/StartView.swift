@@ -22,7 +22,6 @@ struct StartView: View {
         }
         .listStyle(.carousel)
         .navigationBarTitle("Workouts")
-        
     }
 }
 
