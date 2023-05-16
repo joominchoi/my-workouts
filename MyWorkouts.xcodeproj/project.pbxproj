@@ -18,6 +18,7 @@
 		DBA88DD82A12677B00ED55F3 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DD72A12677B00ED55F3 /* ControlsView.swift */; };
 		DBA88DDA2A12694F00ED55F3 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DD92A12694F00ED55F3 /* SummaryView.swift */; };
 		DBA88DDC2A1271C200ED55F3 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DDB2A1271C200ED55F3 /* ActivityRingsView.swift */; };
+		DBA88DDE2A13B32C00ED55F3 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DDD2A13B32C00ED55F3 /* WorkoutManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,9 @@
 		DBA88DD72A12677B00ED55F3 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		DBA88DD92A12694F00ED55F3 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		DBA88DDB2A1271C200ED55F3 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		DBA88DDD2A13B32C00ED55F3 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		DBA88DDF2A13BC0600ED55F3 /* MyWorkouts Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MyWorkouts Watch App.entitlements"; sourceTree = "<group>"; };
+		DBA88DE02A13BC2400ED55F3 /* MyWorkouts-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyWorkouts-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +94,12 @@
 		DBA88DBE2A12390100ED55F3 /* MyWorkouts Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88DE02A13BC2400ED55F3 /* MyWorkouts-Watch-App-Info.plist */,
+				DBA88DDF2A13BC0600ED55F3 /* MyWorkouts Watch App.entitlements */,
 				DBA88DBF2A12390100ED55F3 /* MyWorkoutsApp.swift */,
 				DBA88DC12A12390100ED55F3 /* StartView.swift */,
 				DBA88DD92A12694F00ED55F3 /* SummaryView.swift */,
+				DBA88DDD2A13B32C00ED55F3 /* WorkoutManager.swift */,
 				DBA88DDB2A1271C200ED55F3 /* ActivityRingsView.swift */,
 				DBA88DD12A1241C100ED55F3 /* SessionPagingView.swift */,
 				DBA88DD32A1242BF00ED55F3 /* MetricsView.swift */,
@@ -212,6 +219,7 @@
 			files = (
 				DBA88DC22A12390100ED55F3 /* StartView.swift in Sources */,
 				DBA88DDA2A12694F00ED55F3 /* SummaryView.swift in Sources */,
+				DBA88DDE2A13B32C00ED55F3 /* WorkoutManager.swift in Sources */,
 				DBA88DC02A12390100ED55F3 /* MyWorkoutsApp.swift in Sources */,
 				DBA88DD62A12467900ED55F3 /* ElapsedTimeView.swift in Sources */,
 				DBA88DD42A1242BF00ED55F3 /* MetricsView.swift in Sources */,
@@ -346,11 +354,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MyWorkouts Watch App/MyWorkouts Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyWorkouts Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyWorkouts-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = MyWorkouts;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -375,11 +385,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MyWorkouts Watch App/MyWorkouts Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyWorkouts Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyWorkouts-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = MyWorkouts;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;

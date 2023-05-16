@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct MyWorkouts_Watch_AppApp: App {
-    var body: some Scene {
+    @StateObject var workoutManager = WorkoutManager()
+    
+    @SceneBuilder var body: some Scene {
         WindowGroup {
-            StartView()
+            NavigationView {
+                StartView()
+            }
+            .environmentObject(workoutManager)
         }
     }
 }
