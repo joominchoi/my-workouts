@@ -20,7 +20,7 @@ class WorkoutManager: NSObject, ObservableObject {
         didSet {
 //            Sheet dismissed
             if showingSummaryView == false {
-                selectedWorkout = nil
+                resetWorkout()
             }
         }
     }
@@ -134,6 +134,17 @@ class WorkoutManager: NSObject, ObservableObject {
                 return
             }
         }
+    }
+    
+    func resetWorkout() {
+        selectedWorkout = nil
+        builder = nil
+        session = nil
+        workout = nil
+        activeEnergy = 0
+        averageHeartRate = 0
+        heartRate = 0
+        distance = 0
     }
     
 }
